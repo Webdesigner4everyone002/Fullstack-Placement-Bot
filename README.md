@@ -16,6 +16,8 @@ It can answer queries using your uploaded documents and also supports **multi-se
 - Displays **sources** for each bot response
 - Persistent chat history per session
 - Floating input bar with **send button**
+
+## 📂 Project Structure
 placement_chatbot/
 ├── backend/ # FastAPI backend
 │ ├── app.py
@@ -33,10 +35,6 @@ placement_chatbot/
 │ └── raw/
 ├── streamlit_app.py # Streamlit frontend
 └── README.md
-
-
----
-
 ## ⚙️ Installation
 
 1. Clone the repository:
@@ -91,5 +89,5 @@ Supported file types: .pdf, .doc, .docx, .jpg, .jpeg, .png.
 After adding files, run build_docs.py → indexer.py → start backend → start frontend.
 ---
 
-## 📂 Project Structure
+
 
